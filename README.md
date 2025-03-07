@@ -1,8 +1,8 @@
 # file_honeytoken
 
-Honeytoken: Invisible Traps for Cyber Intruders
+#Honeytoken: Invisible Traps for Cyber Intruders
 
-Overview
+#Overview
 
 Honeytokens are deceptive security mechanisms designed to detect unauthorized access and potential cyber threats. This project implements a honeytoken system that redirects unauthorized access attempts to a fake folder, captures the attacker's face via a webcam, and sends an email alert with the captured image.
 
