@@ -28,3 +28,4 @@ smtplib for email services
 
 OS and shutil libraries for file operations
 
+The **honeytoken.py** script is responsible for continuously monitoring a designated directory for unauthorized access. When an intrusion is detected, it activates the system’s webcam to capture an image of the intruder and sends an email alert with the captured image attached. Additionally, **link.sh** is used to redirect sensitive files to a decoy folder, ensuring that unauthorized users are lured into interacting with the honeytoken system. This combination helps in identifying and tracking potential security threats in real time.
