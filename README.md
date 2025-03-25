@@ -1,4 +1,5 @@
-##Intrusion Detection Trap: Monitoring Unauthorized Access
+# Intrusion Detection Trap: Monitoring Unauthorized Access
+
 Overview
 
 This project implements an Intrusion Detection Trap that detects unauthorized file access by redirecting all file interactions to a decoy, capturing the intruder’s image via webcam, and sending an email alert with the captured image.
@@ -9,6 +10,7 @@ Decoy Redirection – All file accesses are redirected to a fake file.
 Webcam Capture – Captures the intruder’s image upon file access.
 Email Alerts – Sends an email notification with the captured image.
 Continuous Monitoring – Actively tracks file interactions for potential security threats.
+
 Installation
 
 Prerequisites:
