@@ -13,6 +13,7 @@ Created a system that monitors specific files (honeytokens) for unauthorized acc
 Captures an image of the intruder using a webcam.
 Logs details (file accessed, timestamp, intruder’s IP) into a database.
 Sends an email alert with the captured image and details of the accessed file.
+https://github.com/MissHaRin19/honeytoken_system
 
 
 __Overview__
