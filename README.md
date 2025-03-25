@@ -1,31 +1,22 @@
-# file_honeytoken
-
-Honeytoken: Invisible Traps for Cyber Intruders
-
+##Intrusion Detection Trap: Monitoring Unauthorized Access
 Overview
 
-Honeytokens are deceptive security mechanisms designed to detect unauthorized access and potential cyber threats. This project implements a honeytoken system that redirects unauthorized access attempts to a fake folder, captures the attacker's face via a webcam, and sends an email alert with the captured image.
+This project implements an Intrusion Detection Trap that detects unauthorized file access by redirecting all file interactions to a decoy, capturing the intruder’s image via webcam, and sending an email alert with the captured image.
 
 Features
 
-Fake Folder Redirection: Sensitive files are hidden, and unauthorized access attempts are directed to a decoy folder.
-
-Webcam Capture: The attacker's image is captured using the system's webcam.
-
-Email Alert: An email notification is sent with the captured image to alert the system owner of the intrusion.
-
-Stealthy Monitoring: Operates discreetly to avoid detection by intruders.
-
+Decoy Redirection – All file accesses are redirected to a fake file.
+Webcam Capture – Captures the intruder’s image upon file access.
+Email Alerts – Sends an email notification with the captured image.
+Continuous Monitoring – Actively tracks file interactions for potential security threats.
 Installation
 
-Prerequisites
+Prerequisites:
 
 Python 3.x
-
 OpenCV (cv2)
-
 smtplib for email services
-
 OS and shutil libraries for file operations
+How It Works
 
-The **honeytoken.py** script is responsible for continuously monitoring a designated directory for unauthorized access. When an intrusion is detected, it activates the system’s webcam to capture an image of the intruder and sends an email alert with the captured image attached. Additionally, **link.sh** is used to redirect sensitive files to a decoy folder, ensuring that unauthorized users are lured into interacting with the honeytoken system. This combination helps in identifying and tracking potential security threats in real time.
+The monitor.py script continuously tracks file accesses in a designated directory. When any file is opened, it redirects the request to a decoy file, activates the webcam to capture the intruder’s image, and sends an email alert with the attached image. The link.sh script facilitates file redirection, ensuring all access attempts are monitored.
